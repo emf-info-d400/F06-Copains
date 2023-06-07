@@ -18,3 +18,29 @@ Lisez **avec attention** et faites **exactement** les points suivants, avec **pr
 
 ## RESTITUTION :
 1. Rendre cette formative normalement par `push` GitHub
+
+
+## TESTS :
+Graphe `mermaid` :
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+Diagramme de séquence `mermaid` :
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
